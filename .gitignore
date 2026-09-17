@@ -1,0 +1,18 @@
+# This repository publishes the analysis code only. The raw source archives are third-party
+# and their licences do not permit redistribution, so the data directories are absent by
+# design. Keep it that way.
+
+02_raw_data/
+03_processed_data/
+05_results/
+06_figures/
+07_tables/
+09_logs/
+
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
